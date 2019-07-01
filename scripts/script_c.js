@@ -1,6 +1,6 @@
 function main(){
 	tiempo = localStorage.getItem('ti');
-	if(tiempo==0){
+	if(tiempo==""){
 		tiempo=10;
 	}
 	atras=3;
