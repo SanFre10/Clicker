@@ -1,5 +1,9 @@
+function change(time){
+	localStorage.setItem('ti', time);
+}
+
 function main(){
-	tiempo=10;
+	tiempo = localStorage.getItem('ti');
 	atras=3;
 	ready=false;
 	cont=0;
@@ -34,7 +38,6 @@ function cuentaatras(){
 }
 
 function boton(){
-
 	if (ready==true){
 			if (tiempo>=0) {
 			cont+=1;

@@ -124,7 +124,7 @@ ul li{
 	padding-top: 10px;
 }
 button:active{
-  	animation: pulse 0.5s ;
+  	animation: pulse 0.05s ;
 }
 
 button:disabled{
@@ -136,9 +136,8 @@ h1:hidden,label:hidden {
 }
 
 div {
-   -moz-user-select: none; /* Firefox */
-   -ms-user-select: none; /* Internet Explorer */
-   -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
-  -webkit-user-select: none; /* Chrome, Safari, and Opera */
-  -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+  	-moz-user-select: none; /* Firefox */
+  	-ms-user-select: none; /* Internet Explorer */
+  	-webkit-user-select: none; /* Chrome, Safari, and Opera */
+  	-webkit-touch-callout: none; /* Disable Android and iOS callouts*/
 }

@@ -1,0 +1,18 @@
+html{
+	text-align: center;
+}
+body{
+	background: rgb(131,58,180);
+	background: linear-gradient(145deg, rgba(131,58,180,1) 7%, rgba(18,50,133,1) 55%, rgba(69,177,252,1) 98%);
+	background-attachment: fixed;
+	display: inline-block;
+	text-align: center;
+	font-family: "century gothic";
+
+}
+.tiempo{
+	background-color: rgba(255,255,255,.15);
+	border-radius: 30px;
+	padding:0px 20px;
+	color :white;
+}
