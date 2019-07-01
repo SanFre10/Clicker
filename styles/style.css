@@ -1,0 +1,27 @@
+body{
+	background: rgb(131,58,180);
+	background: linear-gradient(145deg, rgba(131,58,180,1) 7%, rgba(18,50,133,1) 55%, rgba(69,177,252,1) 98%);
+	background-attachment: fixed;
+}
+
+h1{
+	margin-left:100px;
+	transform:scale(1);
+	transition:transform .2s ease-in-out;
+
+}
+
+h1:hover{
+	transform:scale(1.5);
+	transition:transform .2s ease-in-out;
+	cursor: pointer;
+}
+
+
+.menu{
+	width: 200px;
+	font-family: "century gothic";
+	font-size: 25px;
+	color: white;
+
+}
