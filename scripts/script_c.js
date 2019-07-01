@@ -1,10 +1,10 @@
 function main(){
-	if(a==1){
+	if (localStorage.getItem('ti') != null) {				//if user change time in settings
 		tiempo = localStorage.getItem('ti');
 	}
 	else{
 		tiempo=10;
-	}
+	}	
 	atras=3;
 	ready=false;
 	cont=0;
@@ -25,8 +25,7 @@ function main(){
 }
 
 function change(time){
-	localStorage.setItem('ti', time);
-	a=1;
+	localStorage.setItem('ti', time);						
 }
 
 function cuentaatras(){
