@@ -1,6 +1,8 @@
 function main(){
-	tiempo = localStorage.getItem('ti');
-	if(tiempo==""){
+	if(a==1){
+		tiempo = localStorage.getItem('ti');
+	}
+	else{
 		tiempo=10;
 	}
 	atras=3;
@@ -24,6 +26,7 @@ function main(){
 
 function change(time){
 	localStorage.setItem('ti', time);
+	a=1;
 }
 
 function cuentaatras(){
