@@ -135,7 +135,7 @@ h1:hidden,label:hidden {
 	opacity: 0;
 }
 
-.disable-selection {
+div {
    -moz-user-select: none; /* Firefox */
    -ms-user-select: none; /* Internet Explorer */
    -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
