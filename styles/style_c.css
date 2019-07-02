@@ -1,14 +1,17 @@
 html{
 	text-align: center;
-}
-body{
 	background: rgb(131,58,180);
 	background: linear-gradient(145deg, rgba(131,58,180,1) 7%, rgba(18,50,133,1) 55%, rgba(69,177,252,1) 98%);
 	background-attachment: fixed;
-	display: inline-block;
-	text-align: center;
-	font-family: "century gothic";
+	height: 95%;
+	overflow: hidden;
 }
+body{
+	display: inline-block;
+	margin:30px;
+	height: 95%;
+}
+
 
 #gcontador{
 	width: 150px;
@@ -49,17 +52,19 @@ body{
 	color: orange;
 	font-size: 30px;
 	padding-bottom: 25px;
-	}
+}
 #atras{
 	font-size: 150px;
 	animation: fadeOut infinite 1s;
 	color:red;
 	position: relative;
-	top: -700px;
+	top: -1480px;
+	left: 210px;
 	margin: 0px;
 	padding: 0px;
     width: 200px;
-    left: 210px
+    height: 200px;
+    
 }
 #click{
 	background-color: rgba(255, 255, 255,.05);
@@ -106,12 +111,13 @@ body{
 }
 
 #lista{
-    background-color: rgba(255, 255, 255,.1);
+    background-color: rgba(255, 255, 255,.01);
     font-size: 30px;
     color: white;
     border-radius: 30px;
     list-style: none;
     width: 200px;
+    height: 800px;
     margin:10px;
     padding: 0;
     position: relative;
@@ -131,10 +137,9 @@ button:disabled{
 	opacity: 0.1;
 }
 
-h1:hidden,label:hidden {
-	opacity: 0;
-}
 
+
+/*can´t select text in div */
 div {
   	-moz-user-select: none; /* Firefox */
   	-ms-user-select: none; /* Internet Explorer */
